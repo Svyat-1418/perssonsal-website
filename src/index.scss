@@ -1,0 +1,54 @@
+//noinspection CssInvalidAtRule
+@import-normalize;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  font-weight: 400;
+  src: local('JosefinSans Regular'), local('JosefinSans-Regular'), url('assets/fonts/JosefinSans-Regular.woff2') format('woff2'),
+  url('assets/fonts/JosefinSans-Regular.woff') format('woff'),
+  url('assets/fonts/JosefinSans-Regular.eot') format('eot');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  font-weight: 500;
+  src: local('JosefinSans Medium'),
+  local('JosefinSans-Medium'),
+  url('assets/fonts/JosefinSans-Medium.woff2') format('woff2'),
+  url('assets/fonts/JosefinSans-Medium.woff') format('woff'),
+  url('assets/fonts/JosefinSans-Medium.eot') format('eot');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  font-weight: 700;
+  src: local('JosefinSans Bold'),
+  local('JosefinSans-Bold'),
+  url('assets/fonts/JosefinSans-Bold.woff2') format('woff2'),
+  url('assets/fonts/JosefinSans-Bold.woff') format('woff'),
+  url('assets/fonts/JosefinSans-Bold.eot') format('eot');
+  font-display: swap;
+}
+
+body {
+  font-family: "JosefinSans", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
